@@ -1,12 +1,3 @@
-/*!
-* Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
-*/
-//
-// Scripts
-// 
-
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
@@ -52,3 +43,33 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+const lineas = [
+   "Hello, I'm \nJair De La Rosa"
+];
+
+let lineaActual = 0;
+let indiceCaracter = 0;
+const velocidad = 100; // Velocidad de escritura en milisegundos
+
+function escribirLinea() {
+    const textoElemento = document.getElementById('nombre');
+    
+    // Si la línea actual no ha terminado, escribir el siguiente carácter
+    if (indiceCaracter < lineas[lineaActual].length) {
+        textoElemento.textContent += lineas[lineaActual][indiceCaracter];
+        indiceCaracter++;
+        setTimeout(escribirLinea, velocidad); // Llamada recursiva para el siguiente carácter
+    } else {
+        // Cuando una línea termina, pasar a la siguiente después de un breve retraso
+        if (lineaActual < lineas.length - 1) {
+            lineaActual++;
+            indiceCaracter = 0;
+            textoElemento.textContent += '\n'; // Agrega un salto de línea
+            setTimeout(escribirLinea, velocidad); // Comienza a escribir la siguiente línea
+        }
+    }
+}
+
+// Iniciar el efecto de máquina de escribir
+escribirLinea();
