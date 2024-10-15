@@ -11417,7 +11417,7 @@ body {
   width: 100%;
   height: 100vh;
   min-height: 35rem;
-  padding: 15rem 0;
+
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.5) 0%,
@@ -11450,6 +11450,7 @@ body {
   font-size: 1rem;
 }
 .home{
+  padding-top: 10vh;
   display: flex;
   flex-direction: row;
 }  
@@ -11458,7 +11459,12 @@ body {
 .masthead .h1{
   font-size: 1.5rem;
   line-height: 1.5rem;
-  width: 15rem; height: 3rem;
+  width: 14rem; height: 3rem;
+}
+.home{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
 }
 .foto{
   width: 13rem;
@@ -11480,6 +11486,10 @@ body {
   .foto{
     width: 17rem;
     height: 17rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
   }
 }
 
@@ -11505,6 +11515,10 @@ body {
   .foto{
     width: 20rem;
     height: 20rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
   }
 
 }
@@ -11634,8 +11648,8 @@ img {
   height: 100%;
 }
 .foto {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-    url("../assets/img/mifoto.png");
+  background-image: url("../assets/img/mifoto.png");
+    
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
