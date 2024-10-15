@@ -11457,9 +11457,9 @@ body {
 @media (min-width: 300px){
   .masthead h1,
 .masthead .h1{
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  width: 14rem; height: 3rem;
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 18rem; height: 4.5rem;
 }
 .home{
   display: flex;
@@ -11467,8 +11467,8 @@ body {
   height: 100vh;
 }
 .foto{
-  width: 13rem;
-  height: 13rem;
+  width: 15rem;
+  height: 15rem;
 }
 }
 @media (min-width: 768px) {
@@ -11522,7 +11522,35 @@ body {
   }
 
 }
+@media (min-width: 1280px) {
+ 
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.4rem;
+    width: 50rem; height: 13rem;
+  }
+  
+  .masthead h2,
+  .masthead .h2 {
+    max-width: 30rem;
+    font-size: 2rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }  
+  .foto{
+    width: 45rem;
+    height: 45rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
 
+}
 .about-section {
   padding-top: 2rem;
   background-image: linear-gradient(
