@@ -11454,103 +11454,7 @@ body {
   display: flex;
   flex-direction: row;
 }  
-@media (min-width: 300px){
-  .masthead h1,
-.masthead .h1{
-  font-size: 2rem;
-  line-height: 2rem;
-  width: 18rem; height: 4.5rem;
-}
-.home{
-  display: flex;
-  flex-direction: column-reverse;
-  height: 100vh;
-}
-.foto{
-  width: 15rem;
-  height: 15rem;
-}
-}
-@media (min-width: 768px) {
-  .masthead h1,
-  .masthead .h1 {
-    font-size: 2.5rem;
-    line-height: 2rem;
-    width: 25rem; height: 5rem;
-  }
-  .masthead {
-    height: 100vh;
-    padding: 0;
-  }
 
-  .foto{
-    width: 17rem;
-    height: 17rem;
-  }
-  .home{
-    display: flex;
-    flex-direction: row;
-  }
-}
-
-@media (min-width: 992px) {
- 
-  .masthead h1,
-  .masthead .h1 {
-    font-size: 4rem;
-    line-height: 3.5rem;
-    letter-spacing: 0.2rem;
-    width: 35rem; height: 7rem;
-  }
-  
-  .masthead h2,
-  .masthead .h2 {
-    max-width: 30rem;
-    font-size: 1.25rem;
-  }
-  .home{
-    display: flex;
-    flex-direction: row;
-  }  
-  .foto{
-    width: 20rem;
-    height: 20rem;
-  }
-  .home{
-    display: flex;
-    flex-direction: row;
-  }
-
-}
-@media (min-width: 1280px) {
- 
-  .masthead h1,
-  .masthead .h1 {
-    font-size: 5rem;
-    line-height: 5.5rem;
-    letter-spacing: 0.4rem;
-    width: 50rem; height: 13rem;
-  }
-  
-  .masthead h2,
-  .masthead .h2 {
-    max-width: 30rem;
-    font-size: 2rem;
-  }
-  .home{
-    display: flex;
-    flex-direction: row;
-  }  
-  .foto{
-    width: 45rem;
-    height: 45rem;
-  }
-  .home{
-    display: flex;
-    flex-direction: row;
-  }
-
-}
 .about-section {
   padding-top: 2rem;
   background-image: linear-gradient(
@@ -11739,4 +11643,116 @@ img {
 @keyframes blink-caret {
   from { border-color: transparent; }
   to { border-color: black; }
+}
+@media (min-width: 300px){
+  .imgTecnologies {
+    width: 15vw;
+    height: 15vw;
+  }
+  .masthead h1,
+.masthead .h1{
+  font-size: 2rem;
+  line-height: 2rem;
+  width: 20rem; height: 4.5rem;
+}
+.home{
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
+}
+.foto{
+  width: 15rem;
+  height: 15rem;
+}
+}
+
+@media (min-width: 700px) {
+  .imgTecnologies {
+    width: 12vw;
+    height: 12vw;
+  }
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 2.5rem;
+    line-height: 2rem;
+    width: 25rem; height: 5rem;
+  }
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+
+  .foto{
+    width: 17rem;
+    height: 17rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 992px) {
+  .imgTecnologies {
+    width: 10vw;
+    height: 10vw;
+  }
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.2rem;
+    width: 35rem; height: 7rem;
+  }
+  
+  .masthead h2,
+  .masthead .h2 {
+    max-width: 30rem;
+    font-size: 1.25rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }  
+  .foto{
+    width: 20rem;
+    height: 20rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+@media (min-width: 1280px) {
+  .imgTecnologies {
+    width: 8vw;
+    height: 8vw;
+  }
+  .masthead h1,
+  .masthead .h1 {
+    font-size: 5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.4rem;
+    width: 50rem; height: 13rem;
+  }
+  
+  .masthead h2,
+  .masthead .h2 {
+    max-width: 30rem;
+    font-size: 2rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }  
+  .foto{
+    width: 45rem;
+    height: 45rem;
+  }
+  .home{
+    display: flex;
+    flex-direction: row;
+  }
+
 }
