@@ -11505,20 +11505,21 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
+  background-color: #000;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgba(0, 0, 0, 0.5) 75%,
+      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 0) 75%,
       #000 100%
     ),
-    url("../assets/img/bg-signup.jpg");
+    url("../assets/img/fondo1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-.signup-section .form-signup input {
+.signup-section .form-signup input textarea {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
@@ -11532,7 +11533,7 @@ body {
 }
 
 .contact-section {
-  padding-top: 5rem;
+  padding-top: 2rem;
 }
 .contact-section .card {
   border: 0;
@@ -11590,6 +11591,8 @@ img {
 .imgTecnologies {
   width: 9vw;
   height: 9vw;
+  cursor: pointer;
+  transition: transform 0.3s ease;
   background-color: white;
  
     --timing: linear(0, 0.3, 0.75, 1);
@@ -11607,6 +11610,9 @@ img {
   
     animation: move 3s infinite var(--timing);
 }
+.imgTecnologies:hover{
+  transform: scale(1.1);
+}
 
 @keyframes move {
   from { --a: 0deg; }
@@ -11622,17 +11628,14 @@ img {
 .animation{
   display: block;
   white-space: nowrap;
-  border-right: 4px solid;
   width: 10ch;
-  animation: typing 2s steps(12),blink .5s infinite step-end alternate;
+  animation: typing 1.2s steps(12);
   overflow: hidden;
 }
 @keyframes typing{
   from {width: 0;}
 }
-@keyframes blink{
-  50% {border-color: transparent;}
-}
+
 .typewriter {
   white-space: pre;
   border-right: 2px solid black;

@@ -73,3 +73,4 @@ function escribirLinea() {
 
 // Iniciar el efecto de máquina de escribir
 escribirLinea();
+
