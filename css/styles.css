@@ -11460,7 +11460,7 @@ body {
   background-image: linear-gradient(
       to bottom,
       #000 0%,
-      rgba(0, 0, 0, 0.7) 75%,
+      rgba(0, 0, 0, 0.8) 75%,
       rgba(0, 0, 0, 1) 100%
     ),
     url("../assets/img/fondo2.jpg");
@@ -11474,7 +11474,7 @@ body {
       to bottom,
       #000 0%,
       rgba(0, 0, 0, 0.9) 75%,
-      rgba(0, 0, 0, 0.8) 100%
+      rgba(0, 0, 0, 1) 100%
     ),
     url("../assets/img/fondo3.jpg");
   background-position: center;
@@ -11520,7 +11520,7 @@ body {
   background-color: #000;
   background: linear-gradient(
       to bottom,
-      rgba(0, 0, 0, 0.9) 0%,
+      rgba(0, 0, 0, 1) 0%,
       rgba(0, 0, 0, 0) 75%,
       #000 100%
     ),

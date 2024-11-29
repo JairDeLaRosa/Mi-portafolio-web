@@ -27,9 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#tecnology">Tecnologies</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tecnology">Tecnologies</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
@@ -60,29 +60,45 @@
             </div>
             
         </header>
-        
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h1 class="text-white-50 mx-auto my-0">
-                          <pre><code style="font-size: 100%;">&lt;&gt;About Me&lt;/&gt;</code> </pre> 
-                          </h1>
-                        <p class="text-white-50 mt-5">
-                            <code style="font-size: 25px;" class="">¿Who am I?</code><br>
-                            I am a student in the last semester of Systems Engineering at the <a href="https://www.unimagdalena.edu.co/">University of Magdalena.</a> 
-                                My passion for technology, programming and the University has led me to explore different areas of web and database development.<br> <br><code style="font-size: 25px;">My goals</code><br>
-                                My goals include mastering Spring Boot and deepening my knowledge in full-stack development. I am always open to new learning and collaboration opportunities to continue growing as a developer. <br>
-                                <br><code style="font-size: 25px;">More of me</code><br>When I'm not programming, I like to watch soccer games and play video games, which helps me maintain balance and creativity.
-                            
-                        </p>
+        <section class="projects-section" id="projects" style="background-color: black;">
+            <div class="container px-4 px-lg-5">
+                <h1 class="text-white-50 mx-auto my-0" style="width: 100%; display: flex; align-items: center; justify-content: center; padding-bottom: 30px;">
+                    <pre><code style="font-size: 100%;">&lt;&gt;Projects&lt;/&gt;</code> </pre> 
+                    </h1>
+                <!-- Featured Project Row-->
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center" id="variedadesbyj">#https://jairdelarosa.github.io/Mi-portafolio-web/#variedadesbyj
+                    <div class="col-xl-8 col-lg-7">
+                        <a href="https://variedadesbyj.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="img-fluid mb-3 mb-lg-0 hover" src="assets/img/Variedades-ByJ.jpeg" alt="..." /></a>
+                    </div>
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text-left text-center text-lg-left">
+                            <code style="font-size: 25px;">Variedades ByJ</code>
+                            <p class="text-white-50 mb-0">Customized e-commerce for my family's store, integrating key functionalities such as product management, shopping cart and search system. I used Spring Boot for the backend, React for the frontend, and MySQL as the database. I implemented a responsive design with Bootstrap and CSS, ensuring an optimal user experience on both mobile and desktop devices.
+                                <br>
+                                <a class="mx-3" target="_blank" href="https://github.com/JairDeLaRosa" style="font-size: 25px;"><i class="fab fa-github"></i></i></a>
+                                <a href="https://github.com/JairDeLaRosa/VariedadesByJ" target="_blank" rel="noopener noreferrer">Frontend</a>
+                                <a href="https://github.com/JairDeLaRosa/ApiRest-VariedadesByJ" target="_blank" rel="noopener noreferrer">Backend</a>
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <br>
+
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center" id="appCLima"> #https://jairdelarosa.github.io/Mi-portafolio-web/#appCLima
+                    <div class="col-xl-4 col-lg-5"><div class="featured-text-right text-center text-lg-left">
+                        <code style="font-size: 25px;">WeatherMap</code>
+                        <p class="text-white-50 mb-0">Application in React with Bootstrap and Axios that queries the current weather and displays the entered location on an interactive Google Maps map. Used WeatherAPI.com API to get real-time weather data and designed a responsive interface to improve user experience.
+                            <br>
+                            <a class="mx-3" target="_blank" href="https://github.com/JairDeLaRosa" style="font-size: 25px;"><i class="fab fa-github"></i></i></a>
+                            <a href="https://github.com/JairDeLaRosa/App-Clima" target="_blank" rel="noopener noreferrer">Codigo</a>
+                        </p>
+                    </div></div>
+                    <div class="col-xl-8 col-lg-7">
+                        <a href="https://app-clima-byjairdelarosa.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="img-fluid mb-3 mb-lg-0 hover" src="assets/img/App-de-clima.jpeg" alt="..." /></a>
+                    </div>
+                </div>
         </section>
-        <!-- Tecnologies-->
+        
+     
         <section class="tecnology-section text-center" id="tecnology">
             <div class="container">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -119,63 +135,26 @@
                 </div>
             </div>
         </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <pre ><code class="projects">&lt;&gt;My projects&lt;/&gt;</code> </pre> 
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7">
-                        <a href="https://variedadesbyj.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="img-fluid mb-3 mb-lg-0 hover" src="assets/img/Variedades-ByJ.jpeg" alt="..." /></a>
-                    </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text-left text-center text-lg-left">
-                            <h4>Variedades ByJ</h4>
-                            <p class="text-black-50 mb-0">I am currently working on this project to create the website for a family business. This project is being carried out with technology such as React.js and Bootstrap in the frontend and SpringBoot in the backend.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-4 col-lg-5"><div class="featured-text-right text-center text-lg-left">
-                        <h4>App Clima</h4>
-                        <p class="text-black-50 mb-0">This is a project that uses it as a practice for the consumption of APIs and responsive design, in this case an API of the weather and the locations represented on a Google Maps map. This project was made with React.js and Boostrap.</p>
-                    </div></div>
-                    <div class="col-xl-8 col-lg-7">
-                        <a href="https://app-clima-byjairdelarosa.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="img-fluid mb-3 mb-lg-0 hover" src="assets/img/App-de-clima.jpeg" alt="..." /></a>
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h1 class="text-white-50 mx-auto my-0">
+                          <pre><code style="font-size: 100%;">&lt;&gt;About Me&lt;/&gt;</code> </pre> 
+                          </h1>
+                        <p class="text-white-50 mt-5">
+                            <code style="font-size: 25px;" class="">¿Who am I?</code><br>
+                            I am a student in the last semester of Systems Engineering at the <a href="https://www.unimagdalena.edu.co/">University of Magdalena.</a> 
+                                My passion for technology, programming and the University has led me to explore different areas of web and database development.<br> <br><code style="font-size: 25px;">My goals</code><br>
+                                My goals include mastering Spring Boot and deepening my knowledge in full-stack development. I am always open to new learning and collaboration opportunities to continue growing as a developer. <br>
+                                <br><code style="font-size: 25px;">More of me</code><br>When I'm not programming, I like to watch soccer games and play video games, which helps me maintain balance and creativity.
+                            
+                        </p>
                     </div>
                 </div>
-                <!-- Project One Row-->
-                <!-- <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Misty</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-                <!-- Project Two Row-->
-                <!-- <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Mountains</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well!</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            </div>
+            <br>
         </section>
-        <!-- Signup-->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -236,7 +215,7 @@
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a download="cv" href="./archivos/CV-JAIR DE LA ROSA 2024.pdf" style="width: auto; height: auto;"><button class="btn btn-primary">descargar cv</button></a>
+                    <a download="cv" href="./archivos/CV-JAIR DE LA ROSA.pdf" style="width: auto; height: auto;"><button class="btn btn-primary">descargar cv</button></a>
                 
                 </div>
             </div>
